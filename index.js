@@ -17,7 +17,8 @@ window.addEventListener('resize', () => {
     _h = window.innerHeight
   richText.x = window.innerWidth / 2;
   richText.y = window.innerHeight / 2;
-
+  startText.x = window.innerWidth / 2;
+  startText.y = window.innerHeight / 2 + 100;
   app.renderer.resize(_w, _h)
 })
 
