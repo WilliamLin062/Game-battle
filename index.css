@@ -1,0 +1,40 @@
+body>* {
+  color: white;
+}
+
+section {
+  position: fixed;
+  height: 300vh;
+}
+
+#view {
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+}
+
+.c-diamond-shape {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 55vh;
+  height: 55vh;
+  z-index: 0;
+  transform: rotate(45deg);
+  border: black;
+}
+
+.title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 64px;
+  height: 64px;
+  transform: rotate(-45deg);
+}
