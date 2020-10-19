@@ -15,4 +15,5 @@ const levelStyle = new PIXI.TextStyle({
   wordWrapWidth: 440,
 });
 const level = new PIXI.Text('LEVEL 1', levelStyle)
+level1.zIndex = 1
 level1.addChild(level)

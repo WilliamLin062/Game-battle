@@ -1,0 +1,37 @@
+{"frames": {
+
+"City Background.png":
+{
+	"frame": {"x":1,"y":1,"w":1120,"h":614},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":186,"w":1120,"h":614},
+	"sourceSize": {"w":1120,"h":800}
+},
+"City Foreground.png":
+{
+	"frame": {"x":1,"y":617,"w":1120,"h":505},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":295,"w":1120,"h":505},
+	"sourceSize": {"w":1120,"h":800}
+},
+"Sky.png":
+{
+	"frame": {"x":1123,"y":1,"w":480,"h":800},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":800},
+	"sourceSize": {"w":480,"h":800}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "SpriteSheet-1.png",
+	"format": "RGBA8888",
+	"size": {"w":1604,"h":1123},
+	"scale": "1",
+	"related_multi_packs": [ "SpriteSheet-0.json" ],
+	"smartupdate": "$TexturePacker:SmartUpdate:519d302b6ac79cc9bc6c06c41543a960:380c4268a105beb3ff4c6cf7605dd829:9d5a268aea36cec23a936e93c3d23699$"
+}
+}

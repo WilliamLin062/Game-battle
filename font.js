@@ -36,7 +36,7 @@ const startStyle = new PIXI.TextStyle({
   wordWrap: true,
   wordWrapWidth: 440,
 });
-const richText = new PIXI.Text('Battle khukhu 3', style);
+const richText = new PIXI.Text('Battle GhuGhu 3', style);
 const startText = new PIXI.Text('S t a r t', startStyle);
 richText.x = window.innerWidth / 2;
 richText.y = window.innerHeight / 2;
@@ -57,17 +57,7 @@ function moveout() {
   tl1.play()
 }
 
-function start() {
-  let tl = gsap.timeline({})
-  tl.to(startScene, {
-    x: 1000
-  }).to(startScene, {
-    visible: false
-  }).from(level1, {
-    visible: true,
 
-  })
-}
 startText.on('mouseover', moveon)
 startText.on('mouseout', moveout)
 startText.on('mousedown', start)

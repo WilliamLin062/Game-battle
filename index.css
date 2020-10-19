@@ -1,6 +1,12 @@
 body>* {
   color: white;
+
 }
+
+html {
+  overflow: hidden;
+}
+
 
 section {
   position: fixed;
